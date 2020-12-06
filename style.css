@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .header
+ {
+     height: 10vh;
+ }
+ .navbar-style
+ {
+     box-shadow: 0 5px 10px #efefef;
+     text-transform: uppercase;
+ }
+ .logo
+ {
+     height: 48px;
+     padding: 2px 10px;
+ }
+ .icon-bar
+{
+    background: darkorange;
+}
+ li a
+ {
+     color: #333;
+ }
+ .big-text
+ {
+     font-size: 52px;
+     margin: 20px 0;
+     color: darkred;
+ }
+
+ a.btn
+ {
+     margin: 30px 14px;
+     width: 180px;
+     padding: 10px;
+     border-radius: 20px;
+
+ }
+ a.btn
+ {
+     background-color: darkred;
+     color: #fff;
+ }
+ a.btn-second
+ {
+          background: Transparent;
+          border: 2px solid darkred;
+          color: #333;
+ }
+ a.btn:hover
+ {
+     background: darkred;
+     border: none;
+     color: #fff;
+     box-shadow: 5px 5px 10px #999;
+     transition: 0.3s;
+ }
+ .banner-info, .banner-image
+ {
+     margin: 30px 0;
+ }
+/*-------------------Courses section-------------------------*/
+
+#courses
+{
+    padding: 80px 0;
+}
+.courses-img
+{
+    width: 100px;
+    margin-top: 20px;
+}
+.courses
+{
+    padding: 20px;
+}
+.courses h4
+{
+    padding:5px;
+    margin-top:25px;
+    text-transform: uppercase;
+}
+.title::before
+{
+    content:'';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after
+{
+    content:'';
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+
+/*---------------about-us section -------------------*/
+#about-us
+{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+#about-us ul li
+{
+    margin: 10px 0;
+}
+#about-us ul
+{
+    margin-left: 20px;
+}
+/*--------------Study Materials-----------------*/
+#Study-Materials
+{
+    margin: 100px 0;
+}
+.Study-Materials
+{
+    border-left:4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Study-Materials img
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user-details
+{
+    display: inline-block;
+    font-size: 12px;
+}
+.Study-Materials img
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+/*-----------------footer section---------------------*/
+
+#footer
+{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    color: #fff;
+}
+.footer img
+{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box
+{
+    padding: 20px;
+}
